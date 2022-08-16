@@ -1,9 +1,13 @@
 <template>
   <main class="introduction">
-      <img src="../assets/img/perfil.svg" alt="Lobo Cinza" width="360" height="520">
+      <img class="img-perfil" src="../assets/img/perfil.svg" alt="Lobo Cinza" width="360" height="520">
     <Transition name="slide" appear="">
       <div>
         <h1>Desenvolvedor<br>Front End</h1>
+        <div class="redes-sociais">
+          <a href="https://www.linkedin.com/in/matheus-barboza-450a621b9/" target="_blank"><img src="../assets/img/linkedin.svg" alt="icone linkedin"></a>
+          <a href="https://github.com/M4Barboza" target="_blank"><img src="../assets/img/github.svg" alt="icone github"></a>
+        </div>
         <p>Localizado em <span class="cidade">Maringá - PR</span> 🦊</p>
       </div>
     </Transition>
@@ -46,6 +50,15 @@ export default {
   z-index: -1;
 }
 
+.introduction .redes-sociais{
+  display: flex;
+}
+
+.introduction .redes-sociais a{
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
 .introduction p {
   font-size: 1.5rem;
   color: #525252;
@@ -79,7 +92,7 @@ export default {
   .introduction {
     grid-template-columns: 1fr;
   }
-  .introduction img {
+  .introduction .img-perfil {
     display: none;
   }
 }

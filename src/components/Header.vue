@@ -4,6 +4,7 @@
     <nav>
       <ul class="header-menu">
         <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#projetos">Projetos</a></li>
         <li><a href="#formacao">Formação</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
@@ -64,8 +65,8 @@ export default {
     
   .header-menu{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
   }
     
   .header a {
@@ -73,6 +74,7 @@ export default {
     border-radius: 5px;
     font-size: 1rem;
     color: #fff;
+    display: flex;
   }
 }
 

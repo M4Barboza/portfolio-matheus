@@ -11,7 +11,7 @@
             <div class="info-card">
               <p>Projeto feito durante o Workshop do Pet - UEM para uma loja de bolos</p>
               <a href="https://github.com/M4Barboza/Cakelicous">
-                <img src="../assets/img/github.png" alt="Icone Github" width="22px" height="20px">
+                <img src="../assets/img/github.svg" alt="Icone Github" width="22px" height="20px">
               </a>
             </div>
           </div>
@@ -23,7 +23,7 @@
             <div class="info-card">
               <p>Projeto feito durante o Ignite Lab da plataforma Rocketseat</p>
               <a href="https://github.com/M4Barboza/Ignite-Lab">
-                <img src="../assets/img/github.png" alt="Icone Github" width="22px" height="20px">
+                <img src="../assets/img/github.svg" alt="Icone Github" width="22px" height="20px">
               </a>
             </div>
           </div>
