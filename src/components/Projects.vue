@@ -5,7 +5,7 @@
         <div class="cards">
           <div class="card">
             <h3>CAKELICIOUS</h3>
-            <a href="">
+            <a href="https://cakelicous.vercel.app">
               <img src="../assets/img/CakeliciousLogo.png" alt="Logo Cakelicious" width="301" height="130">
             </a>
             <div class="info-card">
