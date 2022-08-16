@@ -5,7 +5,7 @@
         <div class="cards">
           <div class="card">
             <h3>CAKELICIOUS</h3>
-            <a href="https://cakelicous.vercel.app">
+            <a href="https://cakelicous.vercel.app" target="_blank">
               <img src="../assets/img/CakeliciousLogo.png" alt="Logo Cakelicious" width="301" height="130">
             </a>
             <div class="info-card">
@@ -17,7 +17,7 @@
           </div>
           <div class="card">
             <h3>Cakelicious</h3>
-            <a href="https://ignite-lab-silk.vercel.app/">
+            <a href="https://ignite-lab-silk.vercel.app/" target="_blank">
               <img src="../assets/img/ignite-lab.png" alt="Logo Ignite-Lab" width="301" height="130">
             </a>
             <div class="info-card">
