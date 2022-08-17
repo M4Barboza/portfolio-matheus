@@ -3,7 +3,7 @@
       <div class="experiencia-container">
         <h2 class="subtitulo">Experiência</h2>
         <div>
-          <p class="experiencia-texto">Desenvolvo pequenos projetos e páginas estáticas apenas com <strong>HTML</strong>,<strong>CSS</strong> e <strong>JavaScript</strong>. Além disso, estou aprendendo <strong>Vue.js</strong> e <strong>React</strong>.</p>  
+          <p class="experiencia-texto">Desenvolvo pequenos projetos e páginas estáticas com <strong>HTML</strong>,<strong>CSS</strong> e <strong>JavaScript</strong>. Além disso, estou aprendendo <strong>Vue.js</strong> e <strong>React</strong>.</p>  
           <div class="empresa">
                   <span class="empresa-ano">2022-2022</span>
                   <h3 class="empresa-titulo">Bitzen Tecnologia</h3>

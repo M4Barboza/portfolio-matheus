@@ -16,7 +16,7 @@ import Footer from './components/Footer.vue';
 import Projects from './components/Projects.vue';
 
 export default {
-    components: { Header, Introduction, Experience, Education, Footer, Projects }
+    components: { Header, Introduction, Experience, Education, Footer, Projects}
 }
 </script>
 
@@ -46,6 +46,7 @@ img {
   height: auto;
   display: block;
 }
+
 
 .subtitulo {
   font-size: 8rem;

@@ -1,12 +1,12 @@
 <template>
-  <header class="header">
+  <header id="home" class="header">
     <img src="../assets/img/MatheusBarboza.png" alt="Lobo"  width="120" height="70">
     <nav>
       <ul class="header-menu">
-        <li><a href="#experiencia">Experiência</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#formacao">Formação</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="#experiencia" @click.prevent="scrollTo('#experiencia')">Experiência</a></li>
+        <li><a href="#projetos" @click.prevent="scrollTo('#projetos')">Projetos</a></li>
+        <li><a href="#formacao" @click.prevent="scrollTo('#formacao')">Formação</a></li>
+        <li><a href="#contato" @click.prevent="scrollTo('#contato')">Contato</a></li>
       </ul>
     </nav>
   </header>
@@ -14,7 +14,12 @@
 
 <script>
 export default {
- name: 'Header',
+  name: 'Header',
+  methods:{
+    scrollTo(selector){
+      document.querySelector(selector).scrollIntoView({behavior: 'smooth'})
+    }
+  }
 }
 </script>
 
@@ -75,6 +80,8 @@ export default {
     font-size: 1rem;
     color: #fff;
     display: flex;
+    justify-content: center;
+    width: 75px;
   }
 }
 
