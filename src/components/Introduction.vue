@@ -3,7 +3,7 @@
       <img class="img-perfil" src="../assets/img/perfil.svg" alt="Lobo Cinza" width="360" height="520">
     <Transition name="slide" appear="">
       <div>
-        <h1>Desenvolvedor<br>Front End</h1>
+        <h1>Desenvolvedor<br>Fullstack</h1>
         <div class="redes-sociais">
           <a href="https://www.linkedin.com/in/matheus-barboza-450a621b9/" target="_blank"><img src="../assets/img/linkedin.svg" alt="icone linkedin"></a>
           <a href="https://github.com/M4Barboza" target="_blank"><img src="../assets/img/github.svg" alt="icone github"></a>
